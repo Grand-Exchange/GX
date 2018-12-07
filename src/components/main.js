@@ -7,7 +7,8 @@ import SignUp from './signup';
 import ViewAll from './viewall';
 import Login from './login';
 import UserPage from './userpage';
-
+import Terms from './terms';
+import PrivacyPol from './privacypol';
 
 const Main = () => (
   <Switch>
@@ -17,6 +18,8 @@ const Main = () => (
     <Route path="/viewall" component={ViewAll} />
     <Route path="/login" component={Login} />
     <Route path="/userpage" component={UserPage} />
+    <Route path="/terms" component={Terms} />
+    <Route path="/privacypol" component={PrivacyPol} />
   </Switch>
 )
 

@@ -11,7 +11,7 @@ class AboutUs extends Component {
       <div className="aboutus-body">
         <Grid className="aboutus-grid">
         <Cell col ={12}>
-          <h1>Meet The Creators</h1>
+          <h1>The Squad</h1>
         </Cell>
           <Cell col={6}>
             <h2>Ken L.</h2>
@@ -69,7 +69,7 @@ class AboutUs extends Component {
               style={{height: '250px'}}
                />
 
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '25px'}}>I Think He Developed The Back-End. Professional Maplestory Player. Current Interests Are In Computer And Network Security.</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '25px'}}>I Think He Developed The Back-End. Professional Maplestory Player. Legendary Chaos Raider. Current Interests Are In Computer And Network Security.</p>
 
           </Cell>
           <Cell col={6}>

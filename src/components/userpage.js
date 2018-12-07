@@ -1,14 +1,33 @@
 import React, { Component } from 'react';
 import {Grid, Cell,List, ListItem, ListItemContent, Card, CardText, CardActions, Button} from 'react-mdl';
-import tempLogo from './images/basedweebgirl1.jpg'
+import { Link } from 'react-router-dom';
+
+import tempLogo from './images/basedweebgirl1.jpg';
 import tempNier from './images/basednier.jpg';
 import tempOverwatch from './images/basedoverwatch.jpg';
 import tempFatego from './images/basedfatego.jpg';
 import tempDokidoki from './images/baseddokidoki.jpg';
-import tempSmash from './images/basedsmash.jpg';
+import tempDeus from './images/baseddeus.jpg';
 import tempTekken from './images/basedtekken.jpg';
-import tempFortnite from './images/basedfortnite.png';
+import tempFortnite from './images/basedfortnite.jpg';
 import tempKh from './images/basedkingdomhearts.png';
+import tempForza from './images/basedforza.jpg';
+import tempDbz from './images/baseddragonball.jpg';
+import tempLast from './images/basedlastofus.jpg';
+import tempCodb from './images/basedcodblack.jpg';
+import tempGod from './images/basedgow.jpg';
+import tempMonster from './images/basedmonster.jpg';
+import tempSf5 from './images/basedsf5.jpg';
+import tempSkyrim from './images/basedskyrim.png';
+import tempHitman from './images/basedhitman.jpg';
+import tempCsgo from './images/basedcsgo.jpg';
+import tempPubg from './images/basedpubg.jpg';
+import tempSc2 from './images/basedsc.jpg';
+import tempDiablo from './images/baseddiablo.jpg';
+import tempDishonor from './images/baseddishonor.jpg';
+import tempNeptunia from './images/basedneptunia.jpg';
+import tempGta from './images/basedgta.jpg';
+import tempMine from './images/basedminecraft.jpg';
 
 
 class UserPage extends Component {
@@ -20,14 +39,14 @@ class UserPage extends Component {
           <h1>Profile</h1>
         </Cell>
           <Cell col={6}>
-            <h2>Sunny L</h2>
+            <h2>Sunny Memes L</h2>
             <img
               src={tempLogo}
               alt="avatar"
-              style={{height: '330px', width: '330px'}}
+              style={{height: '400px', width: '400px'}}
                />
 
-             <p style={{ width: '80%', margin: 'auto', paddingTop: '25px'}}>Weaboo: A Big Fan Of Japanese Games And Animation</p>
+             <p style={{ width: '80%', margin: 'auto', paddingTop: '25px'}}>Konichihi. I Am A Big Fan Of East Asian Culture - Specifically Japanese. I Like Japanese Games And Stuff!</p>
 
           </Cell>
           <Cell col={6}>
@@ -59,7 +78,7 @@ class UserPage extends Component {
           <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
             <img
               src = {tempTekken}
-              height = '400px'
+              height = '480px'
               width = '330px'
               />
             <CardText>
@@ -74,7 +93,7 @@ class UserPage extends Component {
           <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
             <img
               src = {tempOverwatch}
-              height = '400px'
+              height = '480px'
               width = '330px'
               />
             <CardText>
@@ -88,12 +107,46 @@ class UserPage extends Component {
 
           <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
             <img
-              src = {tempDokidoki}
-              height = '400px'
+              src = {tempDeus}
+              height = '480px'
               width = '330px'
               />
             <CardText>
-              <h6>Doki Doki Literature Club! Is A 2017 American Visual Novel Developed By Team Salvato For Microsoft.</h6>
+              <h6>Deus Ex: Human Revolution Is An Action Role-Playing Video Game Developed By Eidos Montréal.</h6>
+            </CardText>
+            <CardActions border>
+              <Button colored>Details</Button>
+              <Button colored>Exchange</Button>
+            </CardActions>
+          </Card>
+
+
+          <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
+            <img
+              src = {tempFatego}
+              height = '480px'
+              width = '330px'
+              />
+            <CardText>
+              <h6>Fate/Grand Order Is A Role-Playing Game Based On The Fate/Stay Night Visual Novel By Type-Moon.</h6>
+            </CardText>
+            <CardActions border>
+              <Button colored>Details</Button>
+              <Button colored>Exchange</Button>
+            </CardActions>
+          </Card>
+
+          <Cell col ={12}
+          />
+
+          <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
+            <img
+              src = {tempNeptunia}
+              height = '480px'
+              width = '330px'
+              />
+            <CardText>
+              <h6>Megadimension Neptunia VII Is A Japanese Role-Playing Game In The HyperDimension Neptunia Series.</h6>
             </CardText>
             <CardActions border>
               <Button colored>Details</Button>
@@ -103,12 +156,42 @@ class UserPage extends Component {
 
           <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
             <img
-              src = {tempFatego}
-              height = '400px'
+              src = {tempMine}
+              height = '480px'
+              width = '330px'
+              />
+            <CardText>
+              <h6>Minecraft Is A 2011 Sandbox Video Game Created By Swedish Game Developer Markus Persson.</h6>
+            </CardText>
+            <CardActions border>
+              <Button colored>Details</Button>
+              <Button colored>Exchange</Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
+            <img
+              src = {tempSf5}
+              height = '480px'
               width = '330px'
               />
             <CardText>
               <h6>Fate/Grand Order Is A Role-Playing Game Based On The Fate/Stay Night Visual Novel By Type-Moon.</h6>
+            </CardText>
+            <CardActions border>
+              <Button colored>Details</Button>
+              <Button colored>Exchange</Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
+            <img
+              src = {tempDbz}
+              height = '480px'
+              width = '330px'
+              />
+            <CardText>
+              <h6>Dragon Ball FighterZ Is A 2D Fighting Game Developed By Arc System Works.</h6>
             </CardText>
             <CardActions border>
               <Button colored>Details</Button>
@@ -123,7 +206,7 @@ class UserPage extends Component {
           <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
             <img
               src = {tempFortnite}
-              height = '400px'
+              height = '480px'
               width = '330px'
               />
             <CardText>
@@ -138,7 +221,7 @@ class UserPage extends Component {
           <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
             <img
               src = {tempKh}
-              height = '400px'
+              height = '480px'
               width = '330px'
               />
             <CardText>
@@ -153,7 +236,7 @@ class UserPage extends Component {
           <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
             <img
               src = {tempNier}
-              height = '400px'
+              height = '480px'
               width = '330px'
               />
             <CardText>
@@ -165,23 +248,24 @@ class UserPage extends Component {
             </CardActions>
           </Card>
 
+
           <Card shadow={5} style={{minWidth: '500', margin: 'auto'}}>
             <img
-              src = {tempSmash}
-              height = '400px'
+              src = {tempDokidoki}
+              height = '480px'
               width = '330px'
               />
             <CardText>
-              <h6>Super Smash Bros. Ultimate Is A Crossover Fighting Game Published By Nintendo.</h6>
+              <h6>Doki Doki Literature Club! Is A 2017 American Visual Novel Developed By Team Salvato For Microsoft Windows.</h6>
             </CardText>
             <CardActions border>
               <Button colored>Details</Button>
-              <Button colored>Exchange</Button>
+            <Button colored>Exchange</Button>
             </CardActions>
           </Card>
 
-
-
+          <Cell col = {12}>
+          </Cell>
 
         </Grid>
 

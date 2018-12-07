@@ -9,23 +9,22 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Grand Exchange</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/"><div className ="bannertextsize">Grand Exchange</div></Link>} scroll>
             <Navigation>
-                <Link to="/login">Sign In</Link>
-                <Link to="/signup">Sign Up</Link>
-                <Link to="/viewall">View All</Link>
-                <Link to="/aboutus">About Us</Link>
-                <Link to="/userpage">User Page</Link>
+                <Link to="/login"><div className ="bannertextsize">Sign In</div></Link>
+                <Link to="/signup"><div className ="bannertextsize">Sign Up</div></Link> 
+                <Link to="/viewall"><div className ="bannertextsize">Browse</div></Link>
+              {/*}<Link to="/userpage"><div className ="bannertextsize">User Page</div></Link> */}
             </Navigation>
         </Header>
         <Drawer>
             <Navigation>
-              <Link to="/">Hello, Username</Link>
-              <Link to="/userpage">User Page</Link>
-              <Link to="/login">Sign In</Link>
-              <Link to="/signup">Sign Up</Link>
-              <Link to="/viewall">View All</Link>
-              <Link to="/">Sign Out</Link>
+              <Link to="/"><div className ="bannertextsize2">Home</div></Link>
+              <Link to="/userpage"><div className ="bannertextsize2">User Page</div></Link>
+            {/*  <Link to="/login"><div className ="bannertextsize2">Sign In</div></Link> */}
+            {/*  <Link to="/signup"><div className ="bannertextsize2">Sign Up</div></Link> */}
+              <Link to="/viewall"><div className ="bannertextsize2">Browse</div></Link>
+              <Link to="/"><div className ="bannertextsize2">Sign Out</div></Link>
             </Navigation>
         </Drawer>
         <Content>
