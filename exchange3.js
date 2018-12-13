@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import tempLogo from './images/basedweebgirl1.jpg';
 import tempUser from './images/user1.jpg';
+import tempMap from './images/staticmap.png';
 
 class Exchange extends Component {
   render() {
@@ -46,6 +47,11 @@ class Exchange extends Component {
 
 
           <Cell col = {12}>
+            <img
+              src = {tempMap}
+              height = '600px'
+              width = '600px'
+              />
         </Cell>
 
         </Grid>
